@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This webpage make use of bootstrap framework for responsive images and grids-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!--bootstrap css file loading-->
+    <link rel="stylesheet" href="css/style.css"> <!-- our own css file-->
+    <link rel="stylesheet" href="css/normalize.css"> <!--fix some render problems across browsers-->
+    <title>Portfolio</title>
+</head>
+<body class="container">
+    <header class="row"> <!-- semantic tag for header-->
+        <div class="col-sm-2">
+            <img class="img-responsive" src="img/udacity.svg" alt="udacity logo"> <!--icon of udacity logo-->
+        </div>
+        <div class="col-sm-10 text-uppercase text-right"> <!-- div element containing the name-->
+            <h1>Jane doette</h1>
+            <h3>front-end ninja</h3>
+        </div>
+    </header>
+    <main class="row"> <!--semantic tag for header-->
+        <hr>
+        <img class="img-responsive" src="img/beach.jpg" alt="cute pic of ancient time"><!--main central image of the page-->
+    </main>
+    <h2 class="text-uppercase">Features</h2>
+    <div class="row">       <!--each element within use 12/3 of the space -->
+        <div class="col-sm-4 text-center">
+            <img class="img-responsive" src="img/beach.jpg" alt="cute pic of ancient time"> <!--image for our sub-element-->
+            <h4 class="text-uppercase">Appify</h4>  <!--a title under our image-->
+            <a href="index.html"><p>https:github.com/udacity/Appify</p></a>
+            <!--a link for our own webpage and make sure i include a <p> tag-->
+        </div>
+        <div class="col-sm-4 text-center">
+            <img class="img-responsive" src="img/beach.jpg" alt="cute pic of ancient time">
+            <h4 class="text-uppercase">sunflower</h4>
+            <a href="index.html"><p>https:github.com/udacity/Sunflower</p></a>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img class="img-responsive" src="img/beach.jpg" alt="cute pic of ancient time">
+            <h4 class="text-uppercase">bokey</h4>
+            <a href="index.html"><p>https:github.com/udacity/Bokey</p></a>
+        </div>
+    </div>
+</body>
+</html>
+
+<form>
+    <input name="q">
+</form>
